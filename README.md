@@ -1,6 +1,7 @@
-En este *repl* puedes encontrar varios ejemplos que te pueden ayudar con las tareas de estructura.
+## Integrantes:
+Felipe Rojo y Jorge Plaza
 
-## Código de Ejemplo (tarea2)
+## Buscador películas en base de datos
 Para ejecutar el ejemplo tarea2 primero debemos compilar (en la carpeta raíz)
 ````
 gcc tdas/*.c tarea2.c -Wno-unused-result -o tarea2
