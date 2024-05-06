@@ -38,11 +38,19 @@ Título: The Lost World: Jurassic Park, Año: 1997
 Presione una tecla para continuar...
 ````
 ## 3) Buscar por Director
-Esta Opcion permite buscar peliculas por su director. En el mapa de los directores, se usa el nombre del director como llave para encontrar la lista de peliculas del director ingresado. <br>
-Por razones que desconozco, esta opcion no funciono
+Esta Opcion permite buscar peliculas por su director. Solo es necesario ingresar el nombre del director a buscar y mostrará todas las peliculas del director.
 
 ## 4) Buscar por Genero
-Al ingresar un genero de una pelicula, esta la podra en mayusculas y luego busca en el mapa una entrada correspondiente a ese género.
+Esta Opcion permite buscar peliculas por su género. Solo es necesario ingresar género a buscar y mostrará todas las peliculas de ese género. Como observación, el genero debe ser ingresado en inglés, por ejemplo "Fantasy".
 
-## 5)Buscar por decada
-Esta opcion hace que al buscar el año de inicio de una década mueste todas las películas en el mapa que se estrenaron durante esa década.
+## 5)Buscar por Década
+Esta opción permite ingresar el primer año de una decada y mostrar todas las peliculas de esta última. Se contempla también el caso de si un usuario ingresa el un año el cual no sea inicio de una decada (por ejemplo 1982), para esos casos se mostrarán las peliculas de 1980.
+
+## 6)Buscar por Calificación
+Esta opción permite buscar todas las peliculas en un rango de calificaciones estipulado por el usuario, al usuario se le pedirá primero que ingrese una calificación minima y luego una máxima y la función mostrara todas las peliculas encontradas en ese rango.
+
+## 7)Buscar por Década y Género
+Esta función nos permite buscar tanto por la decada de la pelicula como por el genero, primero se preguntará por la decada y luego por el genero que deseemos buscar. Al igual que en la función de buscar solo por década si se ingresa 1982 se buscará la decada de 1980, y al buscar por género, se debe ingresar el nombre del género en inglés, por ejemplo "Crime".
+
+## 8)Salida
+Esta opción es la que nos permitirá salir del programa éxitosamente.

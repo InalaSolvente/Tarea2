@@ -2,6 +2,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*    borrarComillas(campos[11]); //Borramos las comillas en caso de que haya
+
+char *token = strtok(campos[11], ","); //Cortamos el campo de géneros hasta una coma
+
+while (token != NULL) { //Mientras token no sea NULL
+
+    char *clean_token = espacioInicial(token); //Limpiaremos el género en caso de que tenga espacios al principio
+
+    list_pushBack(peli->genres, strdup(clean_token)); //Ahora agregamos el género a la lista de géneros de la película
+
+    token = strtok(NULL, ","); //Volvemos a cortar la siguiente parte de la cadena hasta la coma
+
+}
+
+borrarComillas(campos[14]); //Borramos las comillas en caso de que haya
+
+char *token2 = strtok(campos[14], ","); //Cortamos el campo de directores hasta una coma
+
+while (token2 != NULL) { //Mientras token2 no sea NULL
+
+    char *clean_token2 = espacioInicial(token2); //Limpiaremos el director en caso de que tenga espacios al principio
+
+    list_pushBack(peli->director, strdup(clean_token2)); //Ahora agregamos el director a la lista de directores de la película
+
+    token2 = strtok(NULL, ","); //Volvemos a cortar la siguiente parte de la cadena hasta la coma
+
+}
+*/
+
 // Función para limpiar la pantalla
 void limpiarPantalla() { system("clear"); }
 
